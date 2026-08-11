@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MediaHub</title>
 </head>
+
 <body>
     <!-- Exercise 1
     You are given 12 files; 6 audio and 6 video.
@@ -12,50 +14,163 @@
     1.mp3, 2.mp3 .... 6.mp3
     1.mp4, 2.mp4 .... 6.mp4 -->
     <!-- SOLUTION == MediaHub -->
-     <header>
+    <header>
         <!-- logo -->
+        
         <!-- Heading -->
-         <!-- Subheading -->
-          <!-- Navbar -->
-     </header>
-     <main>
+        <h1>MEDIAHUB</h1>
+        <!-- Subheading -->
+        <h2>Your Personal Media Library</h2>
+        <!-- Navbar -->
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#audio">Audio</a>
+            <a href="#video">Video</a>
+            <a href="form.html">Feedback</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
         <!-- Home Section -->
         <section id="home">
             <!-- Heading -->
-             <!-- Paragraphs Related to MediaHub -->
-              <!-- Information About Platform -->
+            <h1>Welcome to MediaHub</h1>
+            <!-- Paragraphs Related to MediaHub -->
+            <p>
+                Your simple multimedia library built using HTML.
+            </p>
+            <p>
+                Explore a collection of audio and video files
+                in one place.
+            </p>
+            <br>
+            <br>
+            <!-- Information About Platform -->
+            <h2>What's Inside?</h2>
+            <ul>
+                <li>6 Audio Files</li>
+                <li>6 video Files</li>
+                <li>Media Information</li>
+                <li>HTML feadback Form</li>
+            </ul>
 
         </section>
+        <hr>
         <!-- About Section -->
         <section id="about">
             <!-- Heading -->
+            <h1>About MediaHub</h1>
             <!--What Is MediaHub -->
-             <!-- Website Contains ? -->
-              <!-- Purpose Of Making? -->
+            <p>
+                MediaHub is a simple multimedia website created using
+                <strong>HTML</strong>.
+            </p>
+            <!-- Website Contains ? -->
+            <p>
+                This website contains a collection of
+                <strong>6 audio files</strong> and
+                <strong>6 video files</strong>.
+            </p>
+            <!-- Purpose Of Making? -->
+            <p>
+                The purpose of this project is to practice and revise
+                different HTML concepts, including multimedia elements,
+                links, lists, tables, forms, and semantic HTML.
+            </p>
         </section>
+        <hr>
         <!-- Audio Files Section -->
         <section id="audio">
             <!-- Heading  -->
-             <!-- Subheading -->
-              <!-- Audio Tracks -->
-               <!-- linking Feedback form -->
-            </section>
-            <!-- Video File Section -->
-            <section id="video">
-                <!-- Heading  -->
-                <!-- Subheading -->
-                <!-- Videos -->
-                <!-- linking Feedback form -->
+            <h1>Audio Files</h1>
+            <!-- Subheading -->
+            <h2>Best Background Sounds </h2>
+            <!-- Audio Tracks -->
+            <h3>Sound 1 : The Mountain</h3>
+            <audio src="Audio/1.mp3" controls></audio>
+            <h3>Sound 2 : MiroMaxMusic</h3>
+            <audio src="Audio/2.mp3" controls></audio>
+            <h3>Sound 3 : ikoliks_aj</h3>
+            <audio src="Audio/3.mp3" controls></audio>
+            <h3>Sound 4 : PaulYudin</h3>
+            <audio src="Audio/4.mp3" controls></audio>
+            <h3>Sound 5 : AtlasAudio</h3>
+            <audio src="Audio/5.mp3" controls></audio>
+            <h3>Sound 6 : Verclub</h3>
+            <audio src="Audio/6.mp3" controls></audio>
+            <br>
+            <br>
+            <!-- linking Feedback form -->
+            <div class="button">
+                <h3>Liked our Audio Collection?</h3>
+
+                <a href="form.html">Give Your Feedback</a>
+            </div>
         </section>
-        
-     </main>
-     <footer>
+        <hr>
+        <!-- Video File Section -->
+        <section id="video">
+            <!-- Heading  -->
+            <h1>Video Files</h1>
+            <!-- Subheading -->
+            <h2>Some Famous Anime's Edit</h2>
+            <!-- Videos -->
+            <h3>Edit 1 : jujutsu kaisen</h3>
+            <video src="Video/1.mp4" controls height="200"></video>
+            <h3>Edit 2 : Demon Slayers</h3>
+            <video src="Video/2.mp4" controls height="200"></video>
+            <h3>Edit 3 :Naruto</h3>
+            <video src="Video/3.mp4" controls height="200"></video>
+            <h3>Edit 4 :Solo Leveling</h3>
+            <video src="Video/4.mp4" controls height="200"></video>
+            <h3>Edit 5 : SpyXFamily</h3>
+            <video src="Video/5.mp4" controls height="200"></video>
+            <h3>Edit 6 : Wind Breaker</h3>
+            <video src="Video/6.mp4" controls height="200"></video>
+            <br>
+            <br>
+            <!-- linking Feedback form -->
+            <div class="button">
+                <h3>Liked our Video Collection?</h3>
+
+                <a href="form.html">Give Your Feedback</a>
+
+            </div>
+        </section>
+
+        <hr>
+    </main>
+    <footer>
         <!-- logo -->
-         <!-- Heading -->
-          <!-- Paragraph -->
-           <!-- navbar for footer -->
-            <!-- copyrights para -->
-             <!-- ending paragraph -->
-     </footer>
+         
+        <!-- Heading -->
+        <h2>MediaHub</h2>
+        <!-- Paragraph -->
+        <p>
+            Your personal media library for exploring
+            audio and video content.
+        </p>
+        <!-- navbar for footer -->
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#audio">Audio</a> |
+            <a href="#videos">Videos</a> |
+            <a href="#about">About</a> |
+            <a href="form.html">Feedback</a>
+        </nav>
+
+        <!-- copyrights para -->
+        <p>
+            &copy; 2026 MediaHub. All rights reserved.
+        </p>
+        <!-- ending paragraph -->
+        <p>
+            Built using <strong>HTML</strong> as part of
+            Frontend Workspace| HTML-CSS.
+        </p>
+
+    </footer>
 </body>
+
 </html>
