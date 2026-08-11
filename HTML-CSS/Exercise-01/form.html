@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediaHub - Feedback form</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+
+        <h1>MediaHub Feedback Form</h1>
+
+        <p>
+            We would love to hear your thoughts about our
+            audio and video collection.
+        </p>
+
+    </header>
+    <!-- Back To MediaHub -->
+    <nav>
+
+        <a href="index.html">
+            &larr; Back to MediaHub
+        </a>
+
+    </nav>
+    <!-- Main Form -->
+    <main>
+
+        <form>
+            <!-- Personal Information -->
+            <fieldset>
+
+                <legend>Personal Information</legend>
+
+                <p>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </p>
+
+                <p>
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="10" max="100">
+                </p>
+
+            </fieldset>
+
+            <!-- Media Selection -->
+            <fieldset>
+
+                <legend>Media Selection</legend>
+
+                <p>What would you like to review?</p>
+
+                <input type="radio" id="audio" name="media-type" value="audio" required>
+
+                <label for="audio">Audio</label>
+
+                <input type="radio" id="video" name="media-type" value="video">
+
+                <label for="video">Video</label>
+
+                <!-- Favorite Media -->
+                <p>
+                    <label for="favorite">
+                        Which media did you like the most?
+                    </label>
+                    <select id="favorite" name="favorite">
+                        <option value="">
+                            Select an option
+                        </option>
+                        <option value="audio-1">Audio 1</option>
+                        <option value="audio-2">Audio 2</option>
+                        <option value="audio-3">Audio 3</option>
+                        <option value="audio-4">Audio 4</option>
+                        <option value="audio-5">Audio 5</option>
+                        <option value="audio-6">Audio 6</option>
+
+                        <option value="video-1">Video 1</option>
+                        <option value="video-2">Video 2</option>
+                        <option value="video-3">Video 3</option>
+                        <option value="video-4">Video 4</option>
+                        <option value="video-5">Video 5</option>
+                        <option value="video-6">Video 6</option>
+                    </select>
+                </p>
+                <!-- Rating -->
+                <p>
+                    <label for="rating">
+                        Rate MediaHub:
+                    </label>
+                    <input type="range" id="rating" name="rating" min="1" max="5">
+                </p>
+            </fieldset>
+
+            <!-- Favorite Features -->
+            <fieldset>
+                <legend>Favorite Features</legend>
+                <p>What did you like about MediaHub?</p>
+                <input type="checkbox" id="audio-feature" name="features" value="audio">
+                <label for="audio-feature">
+                    Audio Collection
+                </label>
+                <br>
+                <input type="checkbox" id="video-feature" name="features" value="video">
+                <label for="video-feature">
+                    Video Collection
+                </label>
+                <br>
+                <input type="checkbox" id="navigation" name="features" value="navigation">
+                <label for="navigation">
+                    Easy Navigation
+                </label>
+                <br>
+                <input type="checkbox" id="simple" name="features" value="simple">
+
+                <label for="simple">
+                    Simple Interface
+                </label>
+            </fieldset>
+
+            <!-- Your Experience -->
+            <fieldset>
+                <legend>Your Experience</legend>
+                <p>
+                    <label for="experience">
+                        Tell us about your experience:
+                    </label>
+                    <br>
+                    <textarea id="experience" name="experience" rows="6" cols="50"
+                        placeholder="Write your feedback here..." required></textarea>
+                </p>
+            </fieldset>
+
+            <!-- 5. Recommendation -->
+            <fieldset>
+                <legend>Recommendation</legend>
+                <p>
+                    <label for="recommend">
+                        Would you recommend MediaHub?
+                    </label>
+                    <select id="recommend" name="recommend">
+                        <option value="">
+                            Select an option
+                        </option>
+                        <option value="yes">
+                            Yes
+                        </option>
+                        <option value="maybe">
+                            Maybe
+                        </option>
+                        <option value="no">
+                            No
+                        </option>
+                    </select>
+                </p>
+            </fieldset>
+
+            <!-- 6. Date & Confirmation -->
+            <fieldset>
+                <legend>Confirmation</legend>
+                <p>
+                    <label for="date">
+                        Date of Feedback:
+                    </label>
+
+                    <input type="date" id="date" name="date">
+
+                </p>
+
+
+                <p>
+
+                    <input type="checkbox" id="terms" name="terms" required>
+
+                    <label for="terms">
+                        I confirm that the information provided
+                        is correct.
+                    </label>
+
+                </p>
+
+            </fieldset>
+
+
+            <!-- 7. Buttons -->
+
+            <p>
+
+                <button type="submit">
+                    Submit Feedback
+                </button>
+
+                <button type="reset">
+                    Reset Form
+                </button>
+
+            </p>
+
+        </form>
+
+    </main>
+</body>
+
+</html>
