@@ -154,9 +154,9 @@ flowchart TB
 
 <div align="center">
 
-  <video src="assets/DAILY-MOTIVATION-website%20--Demo.mp4" controls width="700">
-    Your browser does not support the video tag.
-  </video>
+  
+
+https://github.com/user-attachments/assets/be356588-221c-4920-a25f-7df76dfbdeb9
 
   <p><em>Daily Motivation — Project Demo</em></p>
 
