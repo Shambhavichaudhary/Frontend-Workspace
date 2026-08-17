@@ -110,13 +110,14 @@ main {
     font-size: 18px;
     text-transform: capitalize;
     line-height: 28px;
-    font-weight: bold;
+    font-weight: 540;
     color: rgb(28 55 72 / 98%);
     box-shadow: inset -2px -2px 14px 3px #26082d8f;
 }
 
 .container p:hover {
     box-shadow: 5px 4px 8px black;
+    font-weight: bold;
 }
 
 .container :nth-child(2) {
