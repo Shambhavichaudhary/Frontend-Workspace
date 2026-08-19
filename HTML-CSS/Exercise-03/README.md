@@ -1,264 +1,301 @@
 <div align="center">
+  <h1>Card Designing</h1>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=2D75DC&center=true&vCenter=true&width=850&lines=LAGO+DI+BRAIES;HTML+%2B+CSS+CARD+UI;CARD+DESIGN+RECREATION;EXERCISE-03" alt="Lago di Braies Banner" />
 
-# 🃏 Card Copy
+  <p><em>A simple card UI recreated using HTML and CSS while practicing frontend fundamentals</em></p>
 
-### *Recreating a Reference Card with HTML & CSS*
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat\&logo=css3\&logoColor=white)
+![Beginner Practice](https://img.shields.io/badge/Beginner-Practice-orange?style=flat)
+![Exercise-03](https://img.shields.io/badge/Exercise-03-Weekly%20Learning-blue?style=flat)
 
-![Status](https://img.shields.io/badge/Status-In%20Progress-orange?style=for-the-badge)
-![HTML5](https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-Pending-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
-
-**Exercise-03 • Frontend-Workspace**
-
-*Building the structure first, styling next — one frontend exercise at a time.*
-
+  <p><em>Exercise-03 — Card Designing — an HTML and CSS practice project focused on recreating a card design</em></p>
 </div>
 
 ---
 
-## 📌 About Project
+## About Project
 
-**Card Copy** is **Exercise-03** of my `Frontend-Workspace` learning journey.
+Card Designing is a simple card UI created as part of my `Frontend-Workspace` learning journey. This project belongs to Exercise-03 and was built to practice HTML structure alongside basic CSS styling.
 
-The goal of this exercise is to recreate a given/reference card design using **HTML and CSS**. The exercise focuses on understanding how a visual design can be broken down into individual HTML elements and then styled to match the original design.
+The exercise focuses on recreating a given card design using HTML and CSS. The card contains a travel image, category tags, a heading, descriptive text, and a Read More button.
 
-At the current stage, the **HTML structure has been created** and the basic content/elements of the card are in place.
-
-The **CSS styling is still remaining**, so the project is currently **Work in Progress**.
-
-> 🚧 **Current Status:** HTML structure completed → CSS styling pending
-
-This exercise is intentionally being developed step-by-step so that the structure and styling can be understood separately.
+The project is intentionally small and beginner-friendly. The main goal is to understand how HTML elements can be structured into a UI component and then styled using CSS properties such as spacing, borders, typography, colors, and hover effects.
 
 ---
 
-## 🎯 Original Exercise
+## Original Exercise
 
-The task is to **copy/recreate a given card design** using HTML and CSS.
+The original exercise asks me to use HTML and CSS to recreate a provided card design.
 
-The exercise can be understood as:
+The problem statement is included directly in the HTML comments:
 
 ```text
-Reference Card
-      ↓
-Understand the Structure
-      ↓
-Create HTML Structure
-      ↓
-Apply CSS Styling
-      ↓
-Match the Reference Design
+assets is a folder which contains a card Image. Write html and css code to design this card. Use #html
 ```
 
-The current implementation has reached the **HTML structure stage**.
+The project follows a simple learning progression:
+
+```text
+Reference Design → Understand Card Structure → HTML Structure → CSS Styling → Final Card
+```
+
+The final result is a styled travel card inspired by the provided reference design.
 
 ---
 
-## ✨ Current Progress
+## Features
 
-| Part                        | Status      |
-| --------------------------- | ----------- |
-| Understand Reference Design | ✅ Completed |
-| Plan HTML Structure         | ✅ Completed |
-| Create HTML Elements        | ✅ Completed |
-| Add Card Content            | ✅ Completed |
-| CSS Styling                 | ⏳ Pending   |
-| Match Reference Design      | ⏳ Pending   |
-| Final Visual Refinement     | ⏳ Pending   |
+The card includes the following actual features:
 
-### 🚧 Current Stage
+* Card-based UI layout
+* Travel/nature image
+* `Nature` and `Lake` category tags
+* `Lago di Braies` heading
+* Description text
+* `Read More` button
+* Rounded card corners
+* Rounded image corners
+* Pill-shaped tags
+* Custom typography using Poppins
+* Styled button with rounded corners
+* Button hover effect
+* Basic spacing using margin and padding
+* Border and shadow styling
 
-The project is **not complete yet**.
-
-The card has currently been created using HTML to establish its basic structure. The next stage is to use CSS for:
-
-* Layout and positioning
-* Colors
-* Typography
-* Spacing
-* Borders
-* Shadows
-* Card dimensions
-* Other visual properties required to match the reference
+The `Read More` button is currently a visual UI element and does not perform navigation or any additional functionality.
 
 ---
 
-## 🧩 Concepts Practiced
+## Concepts Used
+
+The main learning focus of Exercise-03 is understanding how basic HTML structure and CSS styling work together to create a complete UI component.
 
 ### HTML Structure
 
-The current stage primarily focuses on creating the structure of the card using HTML.
+* HTML5 document structure
+* `<div>` elements for organizing card sections
+* `<img>` for displaying the card image
+* `<ul>` and `<li>` for category tags
+* `<h2>` for the card heading
+* `<p>` for the description
+* `<button>` for the Read More element
+* `class` attributes for CSS styling
+* `alt` attribute for the image
 
-* Semantic HTML structure
-* Headings and text elements
-* Images/media elements where required
-* Links/buttons where required
-* Nested elements
-* Organizing content into meaningful sections
+The card is divided into separate sections for the image, tags, content, and button to keep the HTML structure organized.
 
-### CSS — Next Stage
+### CSS Basics
 
-CSS is the **next major learning stage** of this exercise.
+* External CSS stylesheet
+* Universal selector
+* Element selectors
+* Class selectors
+* `@import` for Google Fonts
+* Background colors
+* Text colors
+* Basic component styling
 
-The styling phase will focus on applying fundamental CSS concepts to the existing HTML structure.
+### Box Model & Spacing
 
-Some of the areas to be practiced include:
+* `width`
+* `height`
+* `margin`
+* `padding`
+* `border`
+* `border-radius`
 
-* Colors
-* Backgrounds
-* Typography
-* Spacing
-* Width and height
-* Borders
-* Border radius
-* Shadows
-* Positioning
-* Hover styling where required
+These properties are used to control the size, spacing, shape, and visual boundaries of different card elements.
 
-> **Note:** These CSS concepts are listed as the upcoming styling work and are not being claimed as completed in the current version.
+### Typography
+
+* `font-family`
+* `font-size`
+* `font-weight`
+* `line-height`
+* Text color
+* Google Fonts
+
+The project uses the **Poppins** font to give the card a clean and modern appearance.
+
+### Component Styling
+
+* Card container styling
+* Image sizing
+* Rounded image corners
+* Pill-shaped tags
+* Heading styling
+* Paragraph styling
+* Button styling
+* Background colors
+* Border styling
+
+### Interaction
+
+* `:hover` pseudo-class
+* `box-shadow`
+
+The button uses a hover state to change its appearance and add visual depth.
 
 ---
 
-## 🔄 Project Flow
+## Project Flow
 
 ```mermaid
-flowchart TD
-    A[Reference Card] --> B[Understand Design]
-    B --> C[Plan HTML Structure]
-    C --> D[Build HTML]
-    D --> E[HTML Structure Completed]
+flowchart TB
+    A[Reference Card] --> B[Understand Card Structure]
+    B --> C[Create HTML Structure]
+    C --> D[Add Image & Tags]
+    D --> E[Add Card Content]
     E --> F[Apply CSS Styling]
-    F --> G[Match Reference Design]
-    G --> H[Final Refinement]
-    H --> I[Exercise Completed]
+    F --> G[Style Button & Hover Effect]
+    G --> H[Final Card UI]
 ```
 
----
-
-## 🖥️ Website Preview
-
-### Current Version
-
-The current version represents the **HTML structure stage** of the exercise.
-
-The final visual appearance will be updated after the CSS styling phase is completed.
-
-> 🚧 **Preview Status:** Styling is currently in progress.
+The flow represents the progression from understanding the reference design to building and styling the final card.
 
 ---
 
-## 📂 Project Directory
+## Reference Design vs Final Output
+
+### Reference Design
+
+The original card design provided as the visual reference for the exercise.
+
+<div align="center">
+
+<img src="assets/reference-card.png" alt="Reference Card Design" width="500">
+
+<p><em>Reference Design — Card UI used for recreation</em></p>
+
+</div>
+
+### Final Output
+
+The card recreated using HTML and CSS.
+
+<div align="center">
+
+<img src="assets/final-card.png" alt="Final Lago di Braies Card" width="500">
+
+<p><em>Final Output — Lago di Braies Card</em></p>
+
+</div>
+
+The final implementation focuses on recreating the main visual structure of the reference while practicing fundamental HTML and CSS concepts.
+
+---
+
+## Project Directory
+
+The actual folder structure for this project is:
 
 ```text
 Exercise-03/
-├── index.html
-├── style.css
 ├── assets/
-└── README.md
+│   ├── final-card.png
+│   └── reference-card.png
+├── index.html
+├── README.md
+└── style.css
 ```
 
-> The structure above represents the current project organization. Additional files may be added as the exercise progresses.
+### File Overview
+
+* `index.html` → Contains the HTML structure of the card.
+* `style.css` → Contains the CSS styling and hover effect.
+* `assets/reference-card.png` → Contains the reference card design.
+* `assets/final-card.png` → Contains the final recreated card output.
+* `README.md` → Documents the exercise, implementation, concepts, and learning outcomes.
 
 ---
 
-## 📚 Learning Outcomes
+## Learning Outcomes
 
-Through this exercise, I am practicing how to:
+Through this project, I practiced and reinforced several beginner HTML and CSS skills:
 
-* Break down a reference UI into HTML elements
-* Build a structured HTML layout
-* Organize nested elements
-* Separate structure from presentation
-* Translate a visual design into code
-* Apply CSS styling to an existing HTML structure
-* Understand the relationship between HTML and CSS
-* Improve attention to spacing, sizing, and visual details
-
-The exercise is being completed progressively rather than trying to build the complete design at once.
-
----
-
-## 📝 Beginner Learning Scope
-
-This is a **frontend learning exercise**, not a production-level project.
-
-The current goal is to strengthen my understanding of how a webpage/card is built from the ground up.
-
-The implementation is intentionally divided into stages:
-
-```text
-HTML → Structure
-CSS  → Styling
-Final → Reference Matching
-```
-
-At the moment, the **HTML structure has been completed**, while the CSS styling and final visual refinement are still pending.
-
-This approach helps me understand each part of the frontend development process instead of relying on pre-built components or frameworks.
+* Structuring a UI component using HTML
+* Organizing content using `<div>` elements
+* Working with images in HTML
+* Using classes for CSS styling
+* Understanding the CSS box model
+* Managing margin and padding
+* Working with borders and border radius
+* Styling text and typography
+* Using Google Fonts
+* Creating pill-shaped category tags
+* Styling buttons
+* Adding basic hover effects
+* Understanding how CSS properties combine to create a complete UI component
+* Recreating a visual design using HTML and CSS
 
 ---
 
-## 🚀 Future Work
+## Beginner Notes / Learning Scope
 
-The next development stage will focus on completing the CSS implementation.
+This project was created as a learning-first exercise and is intentionally simple.
 
-### Upcoming Tasks
+* The project focuses on strengthening basic HTML and CSS fundamentals.
+* The main goal is to recreate a single card UI from a visual reference.
+* The implementation uses HTML and CSS without JavaScript.
+* Advanced CSS layout systems such as Flexbox and Grid are outside the current implementation.
+* Responsive design is not part of the current implementation.
+* Advanced animations and transitions are not part of this exercise.
+* The project focuses on understanding basic styling properties before moving toward more advanced layouts and interactions.
 
-* [ ] Add complete CSS styling
-* [ ] Match the reference card's dimensions
-* [ ] Apply colors and backgrounds
-* [ ] Style typography
-* [ ] Add proper spacing and alignment
-* [ ] Add borders and border radius
-* [ ] Add shadows where required
-* [ ] Implement required hover effects
-* [ ] Compare the final card with the reference
-* [ ] Refine the design
-* [ ] Mark the exercise as completed
+The purpose of this exercise is not to create a production-ready component, but to gain practical experience by turning a visual reference into a working HTML and CSS implementation.
 
 ---
 
-## 🛠️ Tech / Scope
+## Future Improvements
 
-| Technology         | Status |
-| ------------------ | :----: |
-| HTML5              |    ✅   |
-| CSS3               |    ⏳   |
-| JavaScript         |    ❌   |
-| Frameworks         |    ❌   |
-| Backend / Database |    ❌   |
+These are possible future learning directions rather than requirements missing from the current exercise:
 
-**Primary focus:** HTML structure + CSS styling practice.
+* Use Flexbox for better card alignment and positioning
+* Make the card responsive for different screen sizes
+* Add CSS transitions for smoother hover interactions
+* Create more interactive hover states
+* Build multiple cards using the same design
+* Create a responsive card layout
+* Improve semantic HTML structure
+* Recreate the card component using React in later frontend exercises
 
----
-
-## 📊 Project Tracking
-
-This project is part of my **`Frontend-Workspace`** GitHub repository, where I am documenting my frontend learning journey through progressive exercises.
-
-Each exercise focuses on practicing specific concepts and gradually increasing the complexity of the implementations.
-
-**Exercise-03** currently represents the transition from building a basic HTML structure toward applying CSS to recreate a reference-based UI.
-
-> 🚧 **Project Status: Work in Progress**
+These improvements can be explored as I progress toward more advanced frontend development concepts.
 
 ---
 
-## 👩‍💻 Author
+## Tech / Scope
 
-**Shambhavi Chaudhary**
+| Technology         | Used |
+| ------------------ | ---: |
+| HTML5              |    ✅ |
+| CSS3               |    ✅ |
+| JavaScript         |    ❌ |
+| Backend / Database |    ❌ |
 
-B.Tech Information Technology Student
-Learning • Building • Improving — one frontend exercise at a time.
+HTML and CSS are the only technologies required for this exercise. The project is intentionally kept within the scope of basic frontend practice.
+
+---
+
+## Project Tracking
+
+This project is part of my `Frontend-Workspace` GitHub repository and represents **Exercise-03** in my HTML and CSS learning journey.
+
+The exercise builds on fundamental frontend concepts by moving from basic styling practice toward recreating a complete UI component from a visual reference.
+
+It is tracked as a learning project focused on strengthening frontend fundamentals rather than building a production system.
+
+---
+
+## Author
+
+This Card Designing  project is part of my frontend learning journey. It helped me practice HTML structure, CSS styling, spacing, typography, component styling, and basic interaction by recreating a card from a visual reference.
 
 ---
 
 <div align="center">
-
-### 🚧 Exercise-03 is currently in progress.
-
-**HTML structure is ready. CSS styling is next.**
-
-*More improvements coming as the learning continues.*
-
+  <strong>Exercise-03 — Card Designing</strong>
+  <br>
+  <p>Simple, practical, and focused on HTML & CSS fundamentals.</p>
+  <h3>Keep learning. Keep building. 🚀</h3>
 </div>
